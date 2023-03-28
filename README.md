@@ -24,6 +24,7 @@ repos:
     ... # 
 ```
 
+Once you have a configuration file, you can apply it to the project by running `pre-commit install`.
 
 ### Python
 
