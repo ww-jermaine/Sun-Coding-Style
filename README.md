@@ -31,11 +31,11 @@ Once you have a configuration file, you can apply it to the project by running `
 ```yaml
 repos:
 - repo: https://github.com/psf/black
-  rev: stable
+  rev: 23.1.0
   hooks:
   - id: black
     name: black
-    entry: black .
+    entry: black --check --diff .
 
 - repo: https://github.com/PyCQA/flake8
   rev: 4.0.1
