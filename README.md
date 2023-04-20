@@ -74,11 +74,6 @@ repos:
       types: [javascript]
 ```
 
-### TypeScript
-
-```yaml
-
-```
 
 ### Ruby
 
