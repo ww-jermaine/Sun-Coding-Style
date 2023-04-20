@@ -35,7 +35,7 @@ repos:
   hooks:
   - id: black
     name: black
-    entry: black .
+    entry: black --check .
 
 - repo: https://github.com/PyCQA/flake8
   rev: 4.0.1
